@@ -1,0 +1,34 @@
+# HELIX Core Runtime Dependencies (equivalent to: pip install .)
+fastapi>=0.115.0
+uvicorn>=0.30.0
+pydantic>=2.0.0
+python-dotenv>=1.0.0
+python-multipart>=0.0.9
+httpx>=0.27.0
+numpy>=1.26.0
+pyyaml>=6.0
+psutil>=5.9.0
+aiofiles>=23.0.0
+websockets>=12.0
+cryptography>=42.0.0
+
+# Testing & Development (equivalent to: pip install .[test])
+pytest>=8.0.0
+pytest-asyncio>=0.23.0
+
+# Optional: Voice Engine (install via: pip install .[voice])
+# piper-tts>=1.4.0
+# sounddevice>=0.5.0
+# soundfile>=0.14.0
+# faster-whisper>=1.0.0
+
+# Optional: Memory & Vector Database (install via: pip install .[rag])
+# qdrant-client>=1.7.0
+# fastembed>=0.3.0
+
+# Optional: Local LLM Backends (install via: pip install .[llm] or .[llm-transformers])
+# llama-cpp-python>=0.2.0
+# torch>=2.0.0
+# transformers>=4.30.0
+
+

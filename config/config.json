@@ -1,0 +1,24 @@
+{
+  "ui_settings": {
+    "autoStart": true,
+    "rememberHistory": true,
+    "animations": true,
+    "compactMode": true,
+    "soundAlerts": true,
+    "privateMode": true,
+    "shortcutHints": true,
+    "apiKeySaved": true,
+    "browser_history_enabled": false,
+    "voice_profile": "nova"
+  },
+  "local_models": {
+    "models_dir": "%USERPROFILE%\\.helix\\models",
+    "llm_model": "LLM\\Qwen3-4B-Q8_0.gguf",
+    "embedding_model": "Embeddings\\LFM2.5-Embedding-350M-Q8_0.gguf",
+    "tts_model": "PIPER\\en_US-lessac-medium.onnx"
+  },
+  "voice_profile": "nova",
+  "user_profile": {
+    "name": "User"
+  }
+}

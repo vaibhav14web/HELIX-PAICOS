@@ -1,0 +1,22 @@
+{
+  "qwen3-4b-q8_0.gguf": {
+    "path": "LLM/Qwen3-4B-Q8_0.gguf",
+    "sha256": ""
+  },
+  "qwen2.5-coder-3b-instruct-q8_0.gguf": {
+    "path": "LLM/qwen2.5-coder-3b-instruct-q8_0.gguf",
+    "sha256": ""
+  },
+  "en_US-lessac-medium.onnx": {
+    "path": "piper/en_US-lessac-medium.onnx",
+    "sha256": ""
+  },
+  "en_US-lessac-medium.onnx.json": {
+    "path": "piper/en_US-lessac-medium.onnx.json",
+    "sha256": ""
+  },
+  "faster-whisper-small": {
+    "path": "faster-whisper/small",
+    "sha256": ""
+  }
+}
