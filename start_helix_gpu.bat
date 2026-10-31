@@ -1,24 +1,12 @@
-@echo off
-title HELIX PAIOS - GPU Mode (RTX 3050 + CUDA 12.1)
-echo ================================================
-echo   HELIX PAIOS - GPU Accelerated Launch
-echo   Python 3.12 + PyTorch 2.5.1 + CUDA 12.1
-echo   GPU: NVIDIA GeForce RTX 3050 6GB
-echo ================================================
-echo.
 
 :: Set user profile name
 set HELIX_USER_NAME=Vaibhav
 set HELIX_USER_DISPLAY_NAME=Vaibhav
 
-:: Set CUDA device & VRAM ceiling for 6GB GPU
-set CUDA_VISIBLE_DEVICES=0
-set HELIX_MAX_ACTIVE_VRAM_MB=6144
+
 
 :: ── Ollama GPU Performance Tuning ─────────────────────
-:: Tuned for: RTX 3050 6GB | i5-12450HX | 16GB RAM
-:: NOTE: comments must be on their own lines — inline "::" after a "set"
-::       becomes part of the variable value and corrupts it.
+
 set OLLAMA_FLASH_ATTENTION=1
 ::- flash attention = faster + less VRAM
 set OLLAMA_NUM_PARALLEL=1
